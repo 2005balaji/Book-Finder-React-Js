@@ -1,0 +1,93 @@
+.card{
+    background-color:#FFD300;
+    padding: 8px;
+    border-radius: 1px;
+    border: 2px solid black;
+    box-shadow: 0px 0px  .3px 1px  black;
+  text-align: center;
+
+}
+
+
+.card:hover{
+
+    border: 2px solid #3A10E5;
+
+
+}
+#Thumnail{
+    border: 2px solid black;
+
+}
+
+p{
+    font-size: smaller;
+}
+
+#learnMore{
+    padding-top: .5rem;
+    padding-bottom: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1.5px solid black;
+    font-weight: 600;
+    background-color: #ece7fe ;
+    box-shadow: 4px 5px black;
+
+}
+
+
+#learnMore:hover{
+    box-shadow: 0px 0px black;
+    transition: all 0.2s linear;
+
+
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.bookTitle{
+
+    text-align: center;
+    
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+    cursor: pointer;
+    word-break: break-all;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.bookTitle:hover{
+    overflow: visible; 
+    white-space: normal; 
+}
+
+
+
+.authors{
+    color: #3f3e41;
+}
+
+
+
+.authors{
+
+    text-align: center;
+    
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+    cursor: pointer;
+    word-break: break-all;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.authors:hover{
+    overflow: visible; 
+    white-space: normal; 
+}

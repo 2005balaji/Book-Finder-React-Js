@@ -1,0 +1,100 @@
+
+body{
+    background-color: #FFF0E5;
+    font-family: 'Roboto', sans-serif;
+
+}
+   
+
+
+input{
+    color: red;
+}
+
+
+.centre-div{
+    text-align: center;
+    padding: 2rem;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+  
+  }
+
+  .header{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+
+
+
+  .container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,.5rem));
+    grid-gap:4vw;
+    box-sizing: border-box;
+}
+
+
+#register{
+    background-color: #3A10E5;
+    color: aliceblue;
+    border-radius: 3px;
+    padding-top: .5rem;
+    padding-bottom: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1.5px solid black;
+    font-weight: bolder;
+}
+#register:hover{
+    background-color: #000000;
+    color: aliceblue;
+   
+}
+
+
+
+
+
+
+#search-input{
+    display: block;
+    height:4vh;
+    width: 50vw;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right ;
+    padding-left: 10px;
+    background-size: 23px;
+    background-color: aliceblue;
+    border: 1.5px solid black;
+    border-radius: 3px;
+}
+
+#search-input:hover{
+
+    border: 1.5px solid #3A10E5;
+
+
+}
+
+
+.welcome{
+    color: rgb(164, 1, 1)
+}
+
+.buttons-nav{
+display: grid;
+grid-template-columns:  80px 90px 80px ;
+grid-gap: 3vh;
+}
+
+

@@ -1,0 +1,53 @@
+
+
+body{
+  background-color: #FFF0E5;
+  font-family: 'Roboto', sans-serif;
+
+}
+  
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 0rem;
+}
+#fromArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(242, 134, 134, 0.552);
+}
+
+
+
+
+
+#submit {
+  background-color: #3A10E5;
+  color: aliceblue;
+  border-radius: 3px;
+  /* height: 5vh;
+  width: 6vw; */
+  padding-top: .5rem;
+  padding-bottom: .4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1.5px solid black;
+   font-weight: bolder;
+}
+
+
+
+#formArea{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.about-info{
+ display: flex;   
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+
+#para{
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: .1px;
+    line-height: 25px;
+    text-justify: inter-ideograph;
+    text-decoration: double;
+    padding: 50px;
+}
+
+
+#abt{
+        color: blue;
+}
