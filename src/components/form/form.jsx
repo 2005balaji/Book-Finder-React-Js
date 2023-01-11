@@ -106,11 +106,8 @@ const Form = () => {
       <div id="formArea">
         <br /><br />
         <h1>Join the millions reading book’s with   BookAcademy for free</h1>
-        <br /><br /><br />
 
         <h2>Sign Up</h2>
-        <br />
-
         <form id="form" onSubmit={handleSubmit}>
 
           {inputs.map(input => (
