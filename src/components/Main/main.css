@@ -39,7 +39,7 @@ input{
     margin: 0 auto;
     margin-top: 6vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,.5rem));
+    grid-template-columns: repeat(auto-fit,minmax(13rem,.5rem));
     grid-gap:4vw;
     box-sizing: border-box;
 }
